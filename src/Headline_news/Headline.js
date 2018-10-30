@@ -19,7 +19,7 @@ const Headline = props => {
                             <div className="col-md-10">
                                 <div>
                                     <p className='keterangan'><strong>kumparanNEWS</strong></p>
-                                    <p className='tanggal'>Senin 29 Oktober 2018 13:11</p>
+                                    <p className='tanggal'>{props.date}</p>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,8 @@ Headline.propTypes = {
     title: propTypes.string.isRequired,
     content: propTypes.string.isRequired,
     url: propTypes.string.isRequired,
-    img: propTypes.string
+    img: propTypes.string,
+    date:propTypes.String.isRequired	
 };
 
 export default Headline
