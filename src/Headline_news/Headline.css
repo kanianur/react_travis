@@ -1,0 +1,58 @@
+.headline-news{
+    float: left;
+    width: 730px;
+    height: 480px;
+    display: table;
+    margin: 10px auto;
+    border: 2px solid #e7e8de;
+    padding: 0px 10px;
+}
+.header-gambar {
+    padding-top: 15px;
+    text-align: left;
+}
+.logoBerita {
+    max-width:50px; 
+    border: 2px solid #e7e8de;
+    border-radius: 50%;
+}
+.tanggal {
+    color: #abafb5;
+}
+.keterangan {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.content-gambar{
+    padding-top: 10px;
+    text-align: left
+}
+.gambar {
+    width: 100%;
+    height: auto;
+}
+.kategoriBerita {
+    color: #20b8cc;
+    width: 60px;
+    padding: 3px;
+    font-size: 12px;    
+    border: 1px solid #20b8cc;
+    text-align: center;
+    border-bottom-left-radius: 40% 100%;    /*membuat kotak elips*/
+    border-bottom-right-radius: 40% 100%;
+    border-top-left-radius: 40% 100%;
+    border-top-right-radius: 40% 100%;
+}
+.jumlahLike {
+    text-align: left;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+.footer-gambar {
+    margin-bottom: 15px;
+}
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

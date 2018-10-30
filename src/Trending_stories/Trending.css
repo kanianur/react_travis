@@ -1,0 +1,17 @@
+.judul-trending {
+    text-align: left;
+}
+.media {
+    padding-bottom: 10px;
+}
+.media-left {
+    padding: 4px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+.media-body {
+    padding-left:10px;
+    text-align: left
+}
