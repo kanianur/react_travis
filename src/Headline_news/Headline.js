@@ -62,7 +62,7 @@ Headline.propTypes = {
     content: propTypes.string.isRequired,
     url: propTypes.string.isRequired,
     img: propTypes.string,
-    date:propTypes.String.isRequired	
+    date:propTypes.String	
 };
 
 export default Headline

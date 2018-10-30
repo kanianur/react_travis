@@ -52,7 +52,7 @@ class App extends Component {
                 {listTopNews.map((item, number) => {
                   const src_img = item.urlToImage === null ? "" : item.urlToImage;
                   const content = item.urlToImage !== null ? item.content : "";
-                  return <Headline key={number} title={item.title} img={src_img} content={content} url ={item.url} date={publishedAt}/>;
+                  return <Headline key={number} title={item.title} img={src_img} content={content} url ={item.url} date={item.publishedAt}/>;
                 })}
 
                 </div>
