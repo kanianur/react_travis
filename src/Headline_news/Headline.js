@@ -6,6 +6,7 @@ import Chat from '../Images/Chat.png';
 import Share from '../Images/Share.png';
 import propTypes from 'prop-types';
 
+
 const Headline = props => {
     return(
         <div className='headline-news'>

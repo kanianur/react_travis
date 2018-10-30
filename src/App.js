@@ -6,6 +6,7 @@ import Headline from './Headline_news/Headline.js'
 
 import axios from "axios";
 
+
 const apiKey = "85629c70889243ffbf675183d1b5c99a";
 const baseUrl = "https://newsapi.org/v2/";
 const urlHeadline = baseUrl + "everything?&apiKey=" +apiKey+"&q=science&pageSize=10&page=1"
